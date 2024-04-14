@@ -1,0 +1,86 @@
+git init
+- inicijaliziram prazen repo vo mojot lokalen folder
+
+git remote add origin https://github.com/filiparsovski477/SI_2024_lab1_196008.git
+- go povrzuvam mojot repo so oddaleceniot repo
+
+git add README.md
+- ja dodavam readme vo staging area
+
+git commit -m "Initial commit"
+- go pravam prviot commit
+
+git add SILab1Main.java SILab1_1.java SILab1_2.java
+- gi dodavam fajlovite vo staging area
+
+git commit -m "Add starter code"
+- pravam commit na fajlovite so poraka add starter code
+
+git branch bug1
+- ja pravam prvata granka
+
+git branch bug2
+- ja pravam vtorata granka
+
+git checkout bug1
+- se prefrlam na grankata bug1
+
+git add SILab1_1.java
+- go spremam fajlot za commit
+
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+- pravam commit so poraka
+
+git checkout bug2
+- se prefrlam na grankata bug2
+
+git add SILab1_2.java
+- go spremam fajlot za commit
+
+git commit -m "Fix wrong condition in makeBigStringFrom"
+- pravam commit so poraka
+
+git checkout bug1
+- se prefrlam na bug1
+
+git add SILab1Main.java
+- go spremam fajlot za commit
+
+git commit -m "Call method makeBigStringFrom in main class"
+- pravam commit so poraka
+
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
+- gi sinhroniziram grankite so remote repo (master e nepromeneta)
+
+git checkout master
+- se prefrlam na master
+
+git merge bug1
+- ja spojuvam bug1 kon master
+
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
+- gi sinhroniziram grankite so remote repo (bug1 i bug2 se nepromeneti)
+
+git checkout bug2
+- se prefrlam na bug2
+
+git rebase master
+- pravam rebase od bug2 kon grankata master
+
+git checkout master
+- se prefrlam na master
+
+git merge bug2
+- ja spojuvam bug2 kon master
+
+git push -u origin master
+git push -u origin bug1
+git push -u --force origin bug2
+- gi sinhroniziram grankite so remote repo
+
+git log
+- gi gledam site commiti koi sum gi napravil

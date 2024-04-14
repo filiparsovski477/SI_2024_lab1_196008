@@ -1,0 +1,29 @@
+commit 79bcbdbc61860aae113f62eb9a528db93b41ab74 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Filip Arsovski <arsovskifilip00@gmail.com>
+Date:   Sun Apr 14 22:51:46 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit d8f05871855e0830732ce094b81cadc1e1e42ad3 (origin/bug1, bug1)
+Author: Filip Arsovski <arsovskifilip00@gmail.com>
+Date:   Sun Apr 14 22:55:05 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit feca92d03e5d8558d0a5e8b56d7fb9d938499ffe
+Author: Filip Arsovski <arsovskifilip00@gmail.com>
+Date:   Sun Apr 14 22:49:30 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 778940dcbee9b7c44584a1acea610a8b5d4cc5a3
+Author: Filip Arsovski <arsovskifilip00@gmail.com>
+Date:   Sun Apr 14 22:32:52 2024 +0200
+
+    Add starter code
+
+commit ec35bb3f570990b0d2e4c1e559b1397641924b47
+Author: Filip Arsovski <arsovskifilip00@gmail.com>
+Date:   Sun Apr 14 22:06:09 2024 +0200
+
+    Initial commit
